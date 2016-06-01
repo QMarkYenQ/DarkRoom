@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Dark Room</string>
+    <string name="action_OpenGallary">Open Gallary</string>
+    <string name="action_Hist">Display Histogram</string>
+    <string name="action_ctgs">Convert To Greyscale</string>
+    <string name="action_eqgsistring">Equalize GS</string>
+    <string name="enhance_gs">Enhance GS</string>
+    <string name="enhance_gs_small">EGS</string>
+    <string name="enhance_full_color_small">EFC</string>
+    <string name="action_enhanceHSV">Equalize HSV</string>
+    <string name="action_revert">Revert</string>
+    <string name="action_RGB">Equalize RGB</string>
+    <string name="action_enhanceHSV_small">EHSV</string>
+    <string name="action_enhanceRGB_small">ERGB</string>
+    <string name="action_enhance_red">Enhance Red</string>
+    <string name="action_enhance_red_small">ER</string>
+    <string name="action_enhance_green">Enhance Green</string>
+    <string name="action_enhance_green_small">EG</string>
+    <string name="action_enhance_red_green">Enhance Red and Green</string>
+    <string name="action_enhance_red_green_small">ERG</string>
+</resources>

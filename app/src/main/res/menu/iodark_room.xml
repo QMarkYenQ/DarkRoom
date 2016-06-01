@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.chapter2.darkroom.IODarkRoom"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+>
+
+    <item
+        android:id="@+id/action_openGallary"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="@string/action_OpenGallary"/>
+    <item
+        android:id="@+id/action_Hist"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="@string/action_Hist">
+    </item>
+    <item android:id="@+id/enhance_gs" android:title="@string/enhance_gs" android:enabled="true" android:visible="true" app:showAsAction="ifRoom" android:titleCondensed="@string/enhance_gs_small">
+        <menu>
+            <item android:id="@+id/action_togs" android:title="@string/action_ctgs"/>
+            <item android:id="@+id/action_egs" android:title="@string/action_eqgsistring"/>
+        </menu>
+    </item>
+    <item android:id="@+id/action_HSV" android:titleCondensed="@string/action_enhanceHSV_small" android:title="@string/action_enhanceHSV" android:enabled="true" app:showAsAction="ifRoom" android:visible="true"/>
+    <item android:id="@+id/action_revert" android:title="@string/action_revert" android:orderInCategory="100"></item>
+    <item android:id="@+id/action_RGB" android:title="@string/action_RGB" android:titleCondensed="@string/action_enhanceRGB_small" android:enabled="true" app:showAsAction="ifRoom" android:visible="true">
+        <menu>
+            <item android:id="@+id/action_ER" android:titleCondensed="@string/action_enhance_red_small" android:title="@string/action_enhance_red" app:showAsAction="ifRoom" android:visible="true" android:enabled="true" android:orderInCategory="1"/>
+            <item android:id="@+id/action_EG" app:showAsAction="ifRoom" android:visible="true" android:enabled="true" android:titleCondensed="@string/action_enhance_green_small" android:title="@string/action_enhance_green" android:orderInCategory="2"/>
+            <item android:id="@+id/action_ERG" app:showAsAction="ifRoom" android:visible="true" android:enabled="true" android:titleCondensed="@string/action_enhance_red_green_small" android:title="@string/action_enhance_red_green" android:orderInCategory="3"/>
+        </menu>
+    </item>
+</menu>
